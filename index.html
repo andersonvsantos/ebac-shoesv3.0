@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="header">
+        <div class="container">
+            <h1 class="navbar-brand title fw-bold fs-2 m-0">Sneaker Shop</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navmenu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about" class="nav-link">
+                            <i class="bi bi-shop d-inline me-1"></i>
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#releases" class="nav-link">
+                            <i class="bi bi-newspaper d-inline me-1"></i>
+                            Lançamentos                            
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#products" class="nav-link">
+                            <i class="bi bi-cart4 d-inline me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact" class="nav-link">
+                            <i class="bi bi-headset d-inline me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img class="d-block w-100" src="./assets/images/carousel/man.png" alt="Homem olhando tênis">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img class="d-block w-100" src="./assets/images/carousel/sneakers.png" alt="Prateleiras com tênis">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img class="d-block w-100" src="./assets/images/carousel/table.png" alt="Mesa cheia de tênis">
+                    </div>
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="w-100" src="./assets/images/about/baketball.jpg" alt="Dois homens jogando basquete">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="blue-title">Sobre a loja</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quas incidunt adipisci facere fugit! A dolor error tenetur, reiciendis harum quae est maiores, nulla odit quam dolore eligendi nam similique.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident laudantium impedit, pariatur commodi hic, sequi dolorum ipsam explicabo eveniet obcaecati corrupti quas quasi similique assumenda perferendis omnis. Nihil, dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="releases">
+            <div class="container pt-md-3 pb-5">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="blue-title">Lançamentos</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nihil reprehenderit, fugit officiis delectus quod laboriosam iusto libero quo in. Est possimus suscipit optio quos neque, illo exercitationem esse eos?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title text-center fs-5">Confira nosso novo modelo</h5>
+                            </div>
+                            <img src="./assets/images/releases/nike-lebron.jfif" alt="Tênis lançamento">
+                            <div class="card-body">
+                                <h4 class="card-title fs-5">Nome do tênis</h4>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos beatae exercitationem ab sapiente sunt eum eaque nulla perferendis eligendi officiis.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container pb-5">
+                <h2 class="blue-title mb-5">Confira nosso produtos</h2>
+                <div class="row">
+                    <div class="col-md-2">
+                        <ul class="nav nav-pills flex-column nav-products pb-5">
+                            <button type="button" class="fw-bold nav-link blue-title active" data-bs-toggle="tab" data-bs-target="#airforce">Air Force</button>
+                            <button type="button" class="fw-bold nav-link blue-title" data-bs-toggle="tab" data-bs-target="#airmax">Air Max</button>
+                            <button type="button" class="fw-bold nav-link blue-title" data-bs-toggle="tab" data-bs-target="#basketball">Basquete</button>
+                            <button type="button" class="fw-bold nav-link blue-title" data-bs-toggle="tab" data-bs-target="#running">Corrida</button>
+                        </ul>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="airforce">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/blackAirForce.avif" alt="Air Force Preto">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Preto</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/whiteAirForce.avif" alt="Air Force Branco">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Branco</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/blackAirForce.avif" alt="Air Force Preto">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Preto</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/whiteAirForce.avif" alt="Air Force Branco">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Branco</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/blackAirForce.avif" alt="Air Force Preto">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Preto</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/whiteAirForce.avif" alt="Air Force Branco">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Branco</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/blackAirForce.avif" alt="Air Force Preto">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Preto</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airforce/whiteAirForce.avif" alt="Air Force Branco">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Force Branco</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="airmax">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airmax/airmax90.jpg" alt="Air Max 90">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Max 90</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airmax/airmax97.jpg" alt="Air Max 97">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Max 97</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airmax/airmax90.jpg" alt="Air Max 90">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Max 90</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airmax/airmax97.jpg" alt="Air Max 97">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Max 97</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airmax/airmax90.jpg" alt="Air Max 90">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Max 90</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/airmax/airmax97.jpg" alt="Air Max 97">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Air Max 97</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="basketball">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/lebron.jpg" alt="Lebron VII">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Lebron VII</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/samurai3.png" alt="Samurai 3">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Samurai 3</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/lebron.jpg" alt="Lebron VII">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Lebron VII</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/samurai3.png" alt="Samurai 3">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Samurai 3</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/lebron.jpg" alt="Lebron VII">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Lebron VII</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/samurai3.png" alt="Samurai 3">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Samurai 3</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/lebron.jpg" alt="Lebron VII">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Lebron VII</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/basketball/samurai3.png" alt="Samurai 3">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Samurai 3</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="running">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoom.avif" alt="Nike Zoom">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoom</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoomx.jpg" alt="Nike Zoomx">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoomx</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoom.avif" alt="Nike Zoom">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoom</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoomx.jpg" alt="Nike Zoomx">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoomx</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoom.avif" alt="Nike Zoom">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoom</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoomx.jpg" alt="Nike Zoomx">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoomx</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoom.avif" alt="Nike Zoom">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoom</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-3">
+                                            <img src="./assets/images/products/running/zoomx.jpg" alt="Nike Zoomx">
+                                            <div class="card-body">
+                                                <h4 class="card-title fs-5">Nike Zoomx</h4>
+                                                <p class="card-text text-success">
+                                                    R$800,00
+                                                </p>
+                                                <p class="card-text">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-primary">
+                                                    <i class="bi bi-cart4 d-inline me-1"></i>
+                                                    Adicionar ao carrinho
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container pb-5">
+                <div class="row">
+                    <h2 class="blue-title mb-4">Contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 pb-3">
+                        <form id="contact-form">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold mt-2">Nome:</label>
+                                <input type="text" name="name" id="name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold mt-2">E-mail:</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold mt-2">Telefone: (opcional)</label>
+                                <input type="tel" name="tel" id="tel" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold mt-2">Mensagem:</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="blue-title fs-4 mb-2">
+                                <i class="bi bi-globe d-inline me-1"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook blue-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3 me-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram blue-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp blue-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="blue-title fs-4 mb-2">
+                                <i class="bi bi-geo-alt d-inline me-1"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n°45, Bairro Bootstap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

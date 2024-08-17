@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #0067DA;
+}
+
+.navbar-toggler {
+    background-color: #5695dd;
+}
+
+.title,
+.title:hover,
+.nav-link,
+.nav-link:hover {
+    color: #FFF;
+}
+
+#header .nav-link.active {
+    background-color: #FFF;
+    color: #0067DA;
+}
+
+.blue-title {
+    color: #0067DA;
+    border-bottom: 2px solid #0067DA;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-products .nav-link.active,
+.nav-products .nav-link.active:hover {
+    background-color: #0067DA;
+    color: #FFF
+}
+
+.nav-products .nav-link:hover,
+.blue-icon {
+    color: #0067DA;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+}
